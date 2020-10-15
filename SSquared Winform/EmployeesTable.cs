@@ -56,7 +56,7 @@ namespace SSquared_Winform
             List<Employee> employeesForManager = GetEmployeesForManager(managerId);
             DataTable dt = ConvertToDatatable(employeesForManager);
             
-            // Hardcoding like this normally isn't optimal
+            // This could maybe be its own "SanitizeEmployeeTable()" method
             dt.Columns.Remove("ManagerId");
             dt.Columns.Remove("Roles");
             empTable.DataSource = dt;

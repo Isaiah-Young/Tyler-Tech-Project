@@ -42,26 +42,34 @@ namespace SSquared_Winform
             // 
             this.empTable.AllowUserToAddRows = false;
             this.empTable.AllowUserToDeleteRows = false;
+            this.empTable.AllowUserToResizeColumns = false;
+            this.empTable.AllowUserToResizeRows = false;
+            this.empTable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.empTable.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.empTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.empTable.Location = new System.Drawing.Point(138, 105);
+            this.empTable.GridColor = System.Drawing.SystemColors.Desktop;
+            this.empTable.Location = new System.Drawing.Point(131, 104);
             this.empTable.Name = "empTable";
             this.empTable.ReadOnly = true;
+            this.empTable.RowHeadersVisible = false;
             this.empTable.RowTemplate.Height = 24;
             this.empTable.Size = new System.Drawing.Size(455, 324);
             this.empTable.TabIndex = 2;
             // 
             // label1
             // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.Location = new System.Drawing.Point(148, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 28);
+            this.label1.Size = new System.Drawing.Size(102, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Manager:";
             // 
             // ManagerList
             // 
+            this.ManagerList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ManagerList.FormattingEnabled = true;
-            this.ManagerList.Location = new System.Drawing.Point(236, 48);
+            this.ManagerList.Location = new System.Drawing.Point(256, 51);
             this.ManagerList.Name = "ManagerList";
             this.ManagerList.Size = new System.Drawing.Size(239, 24);
             this.ManagerList.TabIndex = 1;
@@ -69,9 +77,9 @@ namespace SSquared_Winform
             // 
             // AddButton
             // 
-            this.AddButton.Location = new System.Drawing.Point(284, 458);
+            this.AddButton.Location = new System.Drawing.Point(306, 458);
             this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(160, 42);
+            this.AddButton.Size = new System.Drawing.Size(112, 32);
             this.AddButton.TabIndex = 3;
             this.AddButton.Text = "Add Employee";
             this.AddButton.UseVisualStyleBackColor = true;
@@ -81,13 +89,14 @@ namespace SSquared_Winform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 546);
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(734, 546);
             this.Controls.Add(this.AddButton);
             this.Controls.Add(this.empTable);
             this.Controls.Add(this.ManagerList);
             this.Controls.Add(this.label1);
             this.Name = "EmployeesTableWindow";
-            this.Text = "EmployeesTable";
+            this.Text = "S-Squared Enterprises Personnel System";
             ((System.ComponentModel.ISupportInitialize) (this.empTable)).EndInit();
             this.ResumeLayout(false);
         }

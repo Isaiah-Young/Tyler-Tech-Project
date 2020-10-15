@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 
@@ -8,22 +9,20 @@ namespace Tyler_Technologies_Solution
     {
         private readonly EmployeeDBContext _db = new EmployeeDBContext();
 
-        public bool AddEmployee(int employeeId, int managerId, string firstName, string lastName, List<Role> roles)
+        public string AddEmployee(int employeeId, int managerId, string firstName, string lastName, List<Role> roles)
         {
-            // employee id isn't being added correctly in the db
-            Employee employee = new Employee()
+            try
             {
-                Id = employeeId,
-                FirstName = firstName,
-                LastName = lastName,
-                ManagerId = managerId,
-            };
+                Employee employee = new Employee()
+                {
+                    Id = employeeId,
+                    FirstName = firstName,
+                    LastName = lastName,
+                    ManagerId = managerId,
+                };
 
-            ICollection<EmployeeRole> empRoles = MakeEmployeeRoles(employee, roles);
-            employee.Roles = empRoles;
+                employee.Roles = MakeEmployeeRoles(employee, roles);
 
-            if (EmployeeCanBeAdded(employee))
-            {
                 // Necessary to add explicit ID
                 using (var transaction = _db.Database.BeginTransaction())
                 {
@@ -34,26 +33,12 @@ namespace Tyler_Technologies_Solution
                     transaction.Commit();
                 }
 
-                return true;
+                return "Employee Added";
             }
-
-            return false;
-        }
-
-        // Check that data is correct format and won't inject unwanted SQL
-        // If this were an MVC Web app, this method would be called in the controller (and made public)
-        // Need to unit test this
-        private bool EmployeeCanBeAdded(Employee employee)
-        {
-            int employeeId = employee.Id;
-            int? managerId = employee.ManagerId;
-            string firsName = employee.FirstName;
-            string lastName = employee.LastName;
-
-            if (employeeId < 0) return false;
-            if (managerId < 0) return false;
-            // add sql sanitization of first and last name (no drop table, etc.)
-            return true;
+            catch (Exception e)
+            {
+                return "Employee could not be added: The server threw the following exception: " + e.Message;
+            }
         }
 
         private ICollection<EmployeeRole> MakeEmployeeRoles(Employee employee, List<Role> roles)

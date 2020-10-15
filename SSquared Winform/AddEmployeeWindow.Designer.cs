@@ -48,16 +48,18 @@ namespace SSquared_Winform
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(320, 31);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label1.Location = new System.Drawing.Point(219, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 40);
+            this.label1.Size = new System.Drawing.Size(261, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "Add New Employee";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(201, 175);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label2.Location = new System.Drawing.Point(201, 172);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 35);
             this.label2.TabIndex = 1;
@@ -65,7 +67,8 @@ namespace SSquared_Winform
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(201, 210);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label3.Location = new System.Drawing.Point(201, 208);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 35);
             this.label3.TabIndex = 2;
@@ -73,7 +76,8 @@ namespace SSquared_Winform
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(201, 245);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label4.Location = new System.Drawing.Point(201, 242);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(110, 35);
             this.label4.TabIndex = 3;
@@ -81,35 +85,37 @@ namespace SSquared_Winform
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(201, 98);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label5.Location = new System.Drawing.Point(184, 98);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 35);
+            this.label5.Size = new System.Drawing.Size(93, 35);
             this.label5.TabIndex = 4;
             this.label5.Text = "Manager:";
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(199, 341);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label6.Location = new System.Drawing.Point(201, 298);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(110, 35);
+            this.label6.Size = new System.Drawing.Size(66, 35);
             this.label6.TabIndex = 5;
             this.label6.Text = "Roles:";
             // 
             // saveButton
             // 
             this.saveButton.AccessibleName = "";
-            this.saveButton.Location = new System.Drawing.Point(199, 508);
+            this.saveButton.Location = new System.Drawing.Point(201, 444);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(112, 25);
             this.saveButton.TabIndex = 6;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
-            this.saveButton.Click += new System.EventHandler(this.addEmployeeClick);
+            this.saveButton.Click += new System.EventHandler(this.AddEmployeeClick);
             // 
             // cancelButton
             // 
             this.cancelButton.AccessibleName = "";
-            this.cancelButton.Location = new System.Drawing.Point(391, 508);
+            this.cancelButton.Location = new System.Drawing.Point(407, 444);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(112, 25);
             this.cancelButton.TabIndex = 7;
@@ -119,38 +125,42 @@ namespace SSquared_Winform
             // 
             // employeeId
             // 
+            this.employeeId.AccessibleDescription = "Employee ID";
             this.employeeId.AccessibleName = "";
-            this.employeeId.Location = new System.Drawing.Point(359, 172);
+            this.employeeId.Location = new System.Drawing.Point(317, 172);
             this.employeeId.Name = "employeeId";
-            this.employeeId.Size = new System.Drawing.Size(121, 22);
+            this.employeeId.Size = new System.Drawing.Size(168, 22);
             this.employeeId.TabIndex = 8;
             this.employeeId.Text = "Enter Text";
             // 
             // firstName
             // 
+            this.firstName.AccessibleDescription = "First name";
             this.firstName.AccessibleName = "";
-            this.firstName.Location = new System.Drawing.Point(359, 205);
+            this.firstName.Location = new System.Drawing.Point(317, 207);
             this.firstName.Name = "firstName";
-            this.firstName.Size = new System.Drawing.Size(121, 22);
+            this.firstName.Size = new System.Drawing.Size(168, 22);
             this.firstName.TabIndex = 9;
             this.firstName.Text = "Enter Text";
             // 
             // lastName
             // 
+            this.lastName.AccessibleDescription = "Last name";
             this.lastName.AccessibleName = "";
-            this.lastName.Location = new System.Drawing.Point(359, 242);
+            this.lastName.Location = new System.Drawing.Point(317, 242);
             this.lastName.Name = "lastName";
-            this.lastName.Size = new System.Drawing.Size(121, 22);
+            this.lastName.Size = new System.Drawing.Size(168, 22);
             this.lastName.TabIndex = 10;
             this.lastName.Text = "Enter Text";
             // 
             // managerList
             // 
             this.managerList.AccessibleName = "";
+            this.managerList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.managerList.FormattingEnabled = true;
-            this.managerList.Location = new System.Drawing.Point(338, 96);
+            this.managerList.Location = new System.Drawing.Point(283, 98);
             this.managerList.Name = "managerList";
-            this.managerList.Size = new System.Drawing.Size(164, 24);
+            this.managerList.Size = new System.Drawing.Size(197, 24);
             this.managerList.TabIndex = 11;
             // 
             // roleList
@@ -158,18 +168,19 @@ namespace SSquared_Winform
             this.roleList.AccessibleName = "";
             this.roleList.FormattingEnabled = true;
             this.roleList.ItemHeight = 16;
-            this.roleList.Location = new System.Drawing.Point(359, 340);
+            this.roleList.Location = new System.Drawing.Point(262, 298);
             this.roleList.Name = "roleList";
             this.roleList.ScrollAlwaysVisible = true;
             this.roleList.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.roleList.Size = new System.Drawing.Size(222, 100);
+            this.roleList.Size = new System.Drawing.Size(223, 100);
             this.roleList.TabIndex = 12;
             // 
             // AddEmployeeWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 603);
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(712, 528);
             this.Controls.Add(this.roleList);
             this.Controls.Add(this.managerList);
             this.Controls.Add(this.lastName);
