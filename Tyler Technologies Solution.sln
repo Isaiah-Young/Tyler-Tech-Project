@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyler Technologies Solution", "Tyler Technologies Solution\Tyler Technologies Solution.csproj", "{D889E540-3CDF-4416-BE7C-56D147EAE4C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSquared Winform", "SSquared Winform\SSquared Winform.csproj", "{8A6E8C35-E7D2-4A9B-BB4D-597BC57A01ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D889E540-3CDF-4416-BE7C-56D147EAE4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D889E540-3CDF-4416-BE7C-56D147EAE4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D889E540-3CDF-4416-BE7C-56D147EAE4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D889E540-3CDF-4416-BE7C-56D147EAE4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6E8C35-E7D2-4A9B-BB4D-597BC57A01ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6E8C35-E7D2-4A9B-BB4D-597BC57A01ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6E8C35-E7D2-4A9B-BB4D-597BC57A01ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6E8C35-E7D2-4A9B-BB4D-597BC57A01ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\bin\Debug\Tyler_Technologies_Solution.exe.config
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\bin\Debug\Tyler_Technologies_Solution.exe
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\bin\Debug\Tyler_Technologies_Solution.pdb
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\bin\Debug\EntityFramework.dll
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\bin\Debug\EntityFramework.xml
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler Technologies Solution.csprojAssemblyReference.cache
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler Technologies Solution.csproj.CoreCompileInputs.cache
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler Technologies Solution.csproj.CopyComplete
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler_Technologies_Solution.exe
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler_Technologies_Solution.pdb
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler_Technologies_Solution.Migrations.AddEmployeeAndRoleAndEmployeeRole.resources
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler Technologies Solution.csproj.GenerateResource.cache
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler_Technologies_Solution.Migrations.UpdateManagerId.resources
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler_Technologies_Solution.Migrations.AllowManagerIdNull.resources
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler_Technologies_Solution.Migrations.TurnOffAutoIncrementEmpId.resources
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler_Technologies_Solution.Migrations.RevertPrevious.resources
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\Tyler Technologies Solution\obj\Debug\Tyler_Technologies_Solution.Migrations.TurnOffAutoIdInsertAttempt2.resources

@@ -1,0 +1,19 @@
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\SSquared_Winform.exe.config
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\SSquared_Winform.exe
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\SSquared_Winform.pdb
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared Winform.csprojAssemblyReference.cache
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared_Winform.Properties.Resources.resources
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared Winform.csproj.GenerateResource.cache
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared Winform.csproj.CoreCompileInputs.cache
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared_Winform.exe
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared_Winform.pdb
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\Tyler_Technologies_Solution.exe
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\EntityFramework.dll
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\Tyler_Technologies_Solution.pdb
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\Tyler_Technologies_Solution.exe.config
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\EntityFramework.xml
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared Winform.csproj.CopyComplete
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared_Winform.EmployeesTableWindow.resources
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared_Winform.AddEmployeeWindow.resources
