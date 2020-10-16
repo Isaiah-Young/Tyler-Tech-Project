@@ -17,3 +17,6 @@ C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform
 C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared_Winform.EmployeesTableWindow.resources
 C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\obj\Debug\SSquared_Winform.AddEmployeeWindow.resources
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\nunit.framework.dll
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\nunit.framework.pdb
+C:\Users\Isaiah Young\RiderProjects\Tyler Technologies Solution\SSquared Winform\bin\Debug\nunit.framework.xml

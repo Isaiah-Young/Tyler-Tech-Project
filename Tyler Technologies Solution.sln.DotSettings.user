@@ -1,2 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:Boolean x:Key="/Default/Environment/Hierarchy/EntityFrameworkOptions/IsAlreadyNotifiedAboutEntityFramework/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/Environment/Hierarchy/EntityFrameworkOptions/IsAlreadyNotifiedAboutEntityFramework/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b02e1aaf_002Dfcb3_002D44d6_002D850e_002D916131022071/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="NumbersAndCharsTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::859CBA11-2145-4A49-804A-BA96A7F73B7E::.NETFramework,Version=v4.7.2::TestProject.SanitizationTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

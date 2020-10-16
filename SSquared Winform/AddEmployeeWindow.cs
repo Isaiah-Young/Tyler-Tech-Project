@@ -17,13 +17,13 @@ namespace SSquared_Winform
         private readonly EmployeeDbHandle _dbHandle = new EmployeeDbHandle();
         private List<Employee> _managers;
         private readonly List<Employee> _allEmployees;
-        
+
         public AddEmployeeWindow()
         {
             InitializeComponent();
-            
+
             FillManagerList();
-            
+
             var possibleRoles = _dbHandle.GetPossibleRoles();
             roleList.DataSource = new BindingSource(possibleRoles, null);
             roleList.DisplayMember = "Name";
@@ -76,17 +76,17 @@ namespace SSquared_Winform
                     return false;
                 }
             }
-            
+
             return true;
         }
 
         // Even though the user is prevented from typing incorrect characters, they can still paste them - this double checks that
-        private List<string> SanitizeEmployeeInputs(string employeeId, string firstName, string lastName)
+        public List<string> SanitizeEmployeeInputs(string employeeId, string firstName, string lastName)
         {
             string cleanId = new string(employeeId.Where(char.IsNumber).ToArray());
             string cleanFirst = new string(firstName.Where(char.IsLetter).ToArray());
             string cleanLast = new string(lastName.Where(char.IsLetter).ToArray());
-            
+
             return new List<string>() {cleanId, cleanFirst, cleanLast};
         }
 
@@ -107,20 +107,21 @@ namespace SSquared_Winform
         private void textBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             char _char = e.KeyChar;
-            
+
             // EmployeeId input should only accept digits
-            if ( ((TextBox)sender).Name == employeeId.Name)
+            if (((TextBox) sender).Name == employeeId.Name)
             {
-                if ( (!char.IsNumber(_char) || char.IsWhiteSpace(_char)) && !char.IsControl(_char)) 
+                if ((!char.IsNumber(_char) || char.IsWhiteSpace(_char)) && !char.IsControl(_char))
                 {
                     e.Handled = true; // don't accept the character
                 }
             }
-            
+
             // Name inputs should only accept letters
-            else if ( ((TextBox)sender).Name == firstName.Name || ((TextBox)sender).Name == lastName.Name)
+            else if (((TextBox) sender).Name == firstName.Name || ((TextBox) sender).Name == lastName.Name)
             {
-                if ( (char.IsNumber( _char) || char.IsPunctuation(_char) || char.IsWhiteSpace(_char)) && !char.IsControl(_char)) 
+                if ((char.IsNumber(_char) || char.IsPunctuation(_char) || char.IsWhiteSpace(_char)) &&
+                    !char.IsControl(_char))
                 {
                     e.Handled = true;
                 }

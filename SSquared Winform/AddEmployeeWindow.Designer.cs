@@ -1,4 +1,6 @@
-﻿using Tyler_Technologies_Solution;
+﻿using System.Runtime.Remoting.Channels;
+using System.Windows.Forms;
+using Tyler_Technologies_Solution;
 
 namespace SSquared_Winform
 {
@@ -132,6 +134,7 @@ namespace SSquared_Winform
             this.employeeId.Size = new System.Drawing.Size(168, 22);
             this.employeeId.TabIndex = 8;
             this.employeeId.Text = "Enter Text";
+            this.employeeId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyPress);
             // 
             // firstName
             // 
@@ -142,6 +145,7 @@ namespace SSquared_Winform
             this.firstName.Size = new System.Drawing.Size(168, 22);
             this.firstName.TabIndex = 9;
             this.firstName.Text = "Enter Text";
+            this.firstName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyPress);
             // 
             // lastName
             // 
@@ -152,6 +156,7 @@ namespace SSquared_Winform
             this.lastName.Size = new System.Drawing.Size(168, 22);
             this.lastName.TabIndex = 10;
             this.lastName.Text = "Enter Text";
+            this.lastName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyPress);
             // 
             // managerList
             // 
