@@ -13,4 +13,4 @@ EmployeeTable.cs - functions for add-employee window form <br />
 EmployeeTable.Designer.cs - WinForm code <br />
 
 **TestProject** - Unit Tests <br />
-Really just tests that inputs for AddEmployee function are properly sanatized
+Really just tests that inputs for AddEmployee function are properly sanitized
